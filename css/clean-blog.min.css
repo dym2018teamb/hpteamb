@@ -65,3 +65,7 @@ div.imagearea:after {
     margin: 0;
     padding: 0;
 }
+
+#txt p {
+   text-align: justify;
+}
