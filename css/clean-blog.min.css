@@ -10,7 +10,7 @@
   border-bottom: double 5px #FFC778 !important
 }
 
-.box17 {
+.box2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
@@ -19,7 +19,7 @@
     border: solid 3px #ec0d14;/*線*/
     border-radius: 10px;/*角の丸み*/
 }
-.box17 p {
+.box2 p {
     margin: 0;
     padding: 0;
 }
