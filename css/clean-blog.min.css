@@ -10,7 +10,7 @@
   border-bottom: double 5px #FFC778 !important
 }
 
-.box2 {
+.box17 {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
@@ -19,7 +19,7 @@
     border: solid 3px #ec0d14;/*線*/
     border-radius: 10px;/*角の丸み*/
 }
-.box2 p {
+.box17 p {
     margin: 0;
     padding: 0;
 }
@@ -41,4 +41,27 @@ div.imagearea:after {
     content: "";      /* ※Clearfix */
     clear: both;
     display: block;
+}
+
+.box17{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.box17:before, .box17:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.box17:before {left: 10px;}
+.box17:after {right: 10px;}
+.box17 p {
+    margin: 0;
+    padding: 0;
 }
