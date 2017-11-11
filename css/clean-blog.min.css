@@ -8,6 +8,8 @@
 
 #borderline2 h2{
   border-bottom: double 5px #142245 !important
+    margin : 0px ;
+    padding : 0px ;
 }
 
 .box2 {
