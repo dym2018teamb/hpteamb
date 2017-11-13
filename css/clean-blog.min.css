@@ -122,7 +122,7 @@ div.imagearea:after {
   height: 100%;
 }
 
-p {
+.back p {
    background-image: url('img/izumiya/izumiyapro.jpg');
    background-size: cover;
 }
