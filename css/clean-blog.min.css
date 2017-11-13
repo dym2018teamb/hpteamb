@@ -122,4 +122,7 @@ div.imagearea:after {
   height: 100%;
 }
 
-p img { width: 100%; }
+p {
+   background-image: url('fallriver.jpg');
+   background-size: cover;
+}
