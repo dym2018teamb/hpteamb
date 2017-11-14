@@ -10,6 +10,11 @@
   border-bottom: double 5px #142245 !important
 }
 
+h1 {
+background: #c2edff;/*背景色*/
+padding: 0.5em;/*文字まわり（上下左右）の余白*/
+}
+
 .box2 {
     padding: 0.5em 1em;
     margin: 2em 0;
