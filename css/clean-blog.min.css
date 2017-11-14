@@ -10,29 +10,11 @@
   border-bottom: double 5px #142245 !important
 }
 
-h1 {
-position: relative;
-padding-left: 25px;
-}
-
-p2:before {
-position: absolute;
-content: '';
-bottom: -3px;
-left: 0;
-width: 0;
-height: 0;
-border: none;
-border-left: solid 15px transparent;
-border-bottom: solid 15px rgb(119, 195, 223);
-}
-p2:after {
-position: absolute;
-content: '';
-bottom: -3px;
-left: 10px;
-width: 100%;
-border-bottom: solid 3px rgb(119, 195, 223);
+p2 {
+color: #364e96;/*文字色*/
+padding: 0.5em 0;/*上下の余白*/
+border-top: solid 3px #364e96;/*上線*/
+border-bottom: solid 3px #364e96;/*下線*/
 }
 
 .box2 {
