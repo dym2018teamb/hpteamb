@@ -144,3 +144,6 @@ div.imagearea:after {
 
 p.masthead img { width: 100%; } !important
 p.masthead img { height: 100%; } !important
+
+.parent{overflow-x:auto; overflow-y:hidden; width:100%; white-space:nowrap;}
+.child{display:inline-block; margin-right:1%; width:19%; vertical-align:top; white-space:normal;}
